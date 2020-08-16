@@ -64,3 +64,6 @@ lib/
 Pods/
 example.xcworkspace
 .vscode
+
+# Environment Variables
+.env*
