@@ -48,7 +48,7 @@ interface props {
     elevation?: number;
     shadowColor?: string;
   };
-  renderIndicator: (value: number) => JSX.Element;
+  renderIndicator?: (value: number) => JSX.Element;
 }
 
 interface state {
